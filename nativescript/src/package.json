@@ -1,0 +1,8 @@
+{
+	"name": "sp-if",
+	"main": "app.js",
+	"version": "1.2.0",
+	"author": "Sp-if Support <ben@sp-if.com>",
+	"description": "Sp-if chat",
+	"homepage": "sp-if.com"
+}

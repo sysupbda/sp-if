@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+
+  sp-if:
+    build:
+      context: .
+      dockerfile: ./.docker/sp-if.development.dockerfile
+    command: npm start
+    container_name: sp-if
+    image: sp-if
+    networks:
+      - dev-network
+    ports:
+      - '5555:5555'
+
+networks:
+  dev-network:
+    driver: bridge
